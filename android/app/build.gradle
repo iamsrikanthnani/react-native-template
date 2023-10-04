@@ -148,13 +148,25 @@ android {
         dev {
             applicationIdSuffix ".dev"
             resValue "string", "app_name", "RNT-DEV" // RNT - react-native template: DEV
+            manifestPlaceholders = [
+                appIcon: "@mipmap/ic_launcher_dev",
+                appIconRound: "@mipmap/ic_launcher_round_dev"
+            ]
         }
         staging {
             applicationIdSuffix ".staging"
             resValue "string", "app_name", "RNT-Staging" // RNT - react-native template: STAGING 
+            manifestPlaceholders = [
+                appIcon: "@mipmap/ic_launcher_staging",
+                appIconRound: "@mipmap/ic_launcher_round_staging"
+            ]
         }
         prod {
             resValue "string", "app_name", "RNT" // RNT - react-native template: PROD
+            manifestPlaceholders = [
+                appIcon: "@mipmap/ic_launcher",
+                appIconRound: "@mipmap/ic_launcher_round"
+            ]
         }
     }
 

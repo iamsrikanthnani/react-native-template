@@ -988,7 +988,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 336B4E24D1B895FD6A0BA685 /* Pods-rntemplateCommonPods-rntemplateDev.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -1016,7 +1016,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 515103C7FC17C2E70D97E6B0 /* Pods-rntemplateCommonPods-rntemplateDev.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = rntemplate/Info.plist;
@@ -1042,7 +1042,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBB19E60BE710517F4170740 /* Pods-rntemplateCommonPods-rntemplateStaging.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -1070,7 +1070,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE1B35F0C4493A20947077F7 /* Pods-rntemplateCommonPods-rntemplateStaging.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = rntemplate/Info.plist;
