@@ -1,6 +1,16 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
 
+project.ext.envConfigFiles = [
+   devrelease: ".env.dev",
+   devdebug: ".env.dev",
+   proddebug: ".env.prod",
+   prodrelease: ".env.prod",
+   stagingdebug: ".env.staging",
+   stagingrelease: ".env.staging",
+]
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
 import com.android.build.OutputFile
 
 /**
@@ -100,6 +110,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        resValue "string", "build_config_package", "com.rntemplate"
     }
 
     splits {
@@ -128,6 +139,22 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+
+
+    flavorDimensions "default"
+    productFlavors {
+        dev {
+            applicationIdSuffix ".dev"
+            resValue "string", "app_name", "RNT-DEV" // RNT - react-native template: DEV
+        }
+        staging {
+            applicationIdSuffix ".staging"
+            resValue "string", "app_name", "RNT-Staging" // RNT - react-native template: STAGING 
+        }
+        prod {
+            resValue "string", "app_name", "RNT" // RNT - react-native template: PROD
         }
     }
 
