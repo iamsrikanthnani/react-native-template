@@ -16,14 +16,21 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "android:dev": "yarn android --mode devdebug",
+    "android:staging": "yarn android --mode stagingdebug",
+    "android:prod": "yarn android --mode proddebug",
     "ios": "react-native run-ios",
+    "ios:dev": "yarn ios --scheme rntemplateDev",
+    "ios:staging": "yarn ios --scheme rntemplateStaging",
+    "ios:prod": "yarn ios --scheme rntemplate",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.71.13"
+    "react-native": "0.71.13",
+    "react-native-config": "^1.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

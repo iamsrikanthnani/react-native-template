@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'rntemplate' do
+abstract_target 'rntemplateCommonPods' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -42,6 +42,16 @@ target 'rntemplate' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
+
+  
+  target 'rntemplate' do
+  end
+
+  target 'rntemplateDev' do
+  end
+
+  target 'rntemplateStaging' do
+  end
 
   target 'rntemplateTests' do
     inherit! :complete
