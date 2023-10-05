@@ -13,8 +13,9 @@ Here's the status of each feature:
   - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/2)
 
 ### AppCenter Setup 📊
-[Up Next 🔜]: Integration of AppCenter for bug tracking 🐛 and analytics 📈. Stay tuned for better app insights!
-  <!--- [Pull Request](link-to-pull-request) Enable the pull request link when it's ready -->
+[DONE ✅]: Integration of AppCenter for bug tracking 🐛 and analytics 📈. Stay tuned for better app insights!
+  - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/4)
+
 
 ### React Native CodePush 🚀
 [Up Next 🔜]: Implementation of CodePush for Over-The-Air (OTA) updates. Say goodbye to manual updates!
