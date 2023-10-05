@@ -7,8 +7,10 @@ Welcome to our React Native template repository! This template is designed to pr
 Here's the status of each feature:
 
 ### Environment Configuration 🌐
-[In Progress 🚧]: Multiple environment configurations for development, production, and staging using `react-native-config`. Enjoy smooth, environment-specific app development!
-  - [Pull Request](link-to-pull-request)
+[DONE ✅]: Multiple environment configurations for development, production, and staging using `react-native-config`. Enjoy smooth, environment-specific app development!
+  - [Android-Commit](https://github.com/iamsrikanthnani/react-native-template/commit/bdae46bbfdb1e835d8d2edc20e911175dc66e242)
+  - [iOS-Commit](https://github.com/iamsrikanthnani/react-native-template/commit/49ea94e531e385807ab94847cccc6f7b9e683d31)
+  - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/2)
 
 ### AppCenter Setup 📊
 [Up Next 🔜]: Integration of AppCenter for bug tracking 🐛 and analytics 📈. Stay tuned for better app insights!
