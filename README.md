@@ -21,11 +21,12 @@ Here's the status of each feature:
 [DONE ✅]: Implementation of CodePush for Over-The-Air (OTA) updates. Say goodbye to manual updates!
   - [Android-Commit](https://github.com/iamsrikanthnani/react-native-template/commit/c7f6d2d8b0b5c6e8a4577d510b24af483e919017)
   - [iOS-Commit](https://github.com/iamsrikanthnani/react-native-template/commit/738a7de94a0bf4780eab2c4ad27f505b52950026)
-  - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/4)
+  - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/5)
 
 ### React Native Keychain 🔒
-[Up Next 🔜]: Inclusion of security features like React Native Keychain for sensitive data handling. Keep your data safe and sound!
-  <!--- [Pull Request](link-to-pull-request) Enable the pull request link when it's ready -->
+[DONE ✅]: Inclusion of security features like React Native Keychain for sensitive data handling. to Keep data safe!
+  - [Commit](https://github.com/iamsrikanthnani/react-native-template/commit/f7097397863f01718bc2e4c3136610f16c810899)
+  - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/6)
 
 ### Mixpanel for Analytics 📊
 [Up Next 🔜]: Integration of Mixpanel for effective user behavior tracking. Understand your users like never before!
