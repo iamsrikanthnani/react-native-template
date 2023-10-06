@@ -29,8 +29,8 @@ Here's the status of each feature:
   - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/6)
 
 ### Mixpanel for Analytics 📊
-[Up Next 🔜]: Integration of Mixpanel for effective user behavior tracking. Understand your users like never before!
-  <!--- [Pull Request](link-to-pull-request) Enable the pull request link when it's ready -->
+[DONE ✅]: Integration of Mixpanel for effective user behavior tracking. Understand your users like never before!
+  - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/7)
 
 ### Redux Setup 🚀
 [Up Next 🔜]: Developing a well-structured Redux setup for state management. Stay organized and efficient!
