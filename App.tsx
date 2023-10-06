@@ -4,15 +4,20 @@ import Config from 'react-native-config';
 type Props = {};
 import Analytics from 'appcenter-analytics';
 import codePush from 'react-native-code-push';
+import {Provider} from 'react-redux';
+import store from '@redux/store';
+
 const App = (props: Props) => {
   useEffect(() => {
     Analytics.trackEvent('My custom event, from ' + Config.ENV);
   }, []);
 
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text style={{fontSize: 30}}> env: {Config.ENV} </Text>
-    </View>
+    <Provider store={store}>
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <Text style={{fontSize: 30}}> env: {Config.ENV} </Text>
+      </View>
+    </Provider>
   );
 };
 
