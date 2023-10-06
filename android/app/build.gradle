@@ -111,6 +111,7 @@ android {
         versionCode 1
         versionName "1.0"
         resValue "string", "build_config_package", "com.rntemplate"
+        resValue 'string', "CODE_PUSH_APK_BUILD_TIME", String.format("\"%d\"", System.currentTimeMillis())
     }
 
     splits {
@@ -152,6 +153,7 @@ android {
                 appIcon: "@mipmap/ic_launcher_dev",
                 appIconRound: "@mipmap/ic_launcher_round_dev"
             ]
+            resValue 'string', "CodePushDeploymentKey", project.env.ANDROID_CODEPUSH_DEPLOYMENT_KEY
         }
         staging {
             applicationIdSuffix ".staging"
@@ -160,6 +162,7 @@ android {
                 appIcon: "@mipmap/ic_launcher_staging",
                 appIconRound: "@mipmap/ic_launcher_round_staging"
             ]
+            resValue 'string', "CodePushDeploymentKey", project.env.ANDROID_CODEPUSH_DEPLOYMENT_KEY
         }
         prod {
             resValue "string", "app_name", "RNT" // RNT - react-native template: PROD
@@ -167,6 +170,7 @@ android {
                 appIcon: "@mipmap/ic_launcher",
                 appIconRound: "@mipmap/ic_launcher_round"
             ]
+            resValue 'string', "CodePushDeploymentKey", project.env.ANDROID_CODEPUSH_DEPLOYMENT_KEY
         }
     }
 
@@ -207,3 +211,4 @@ dependencies {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"

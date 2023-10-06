@@ -18,8 +18,10 @@ Here's the status of each feature:
 
 
 ### React Native CodePush 🚀
-[Up Next 🔜]: Implementation of CodePush for Over-The-Air (OTA) updates. Say goodbye to manual updates!
-  <!--- [Pull Request](link-to-pull-request) Enable the pull request link when it's ready -->
+[DONE ✅]: Implementation of CodePush for Over-The-Air (OTA) updates. Say goodbye to manual updates!
+  - [Android-Commit](https://github.com/iamsrikanthnani/react-native-template/commit/c7f6d2d8b0b5c6e8a4577d510b24af483e919017)
+  - [iOS-Commit](https://github.com/iamsrikanthnani/react-native-template/commit/738a7de94a0bf4780eab2c4ad27f505b52950026)
+  - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/4)
 
 ### React Native Keychain 🔒
 [Up Next 🔜]: Inclusion of security features like React Native Keychain for sensitive data handling. Keep your data safe and sound!
