@@ -37,6 +37,7 @@
     "appcenter": "^5.0.0",
     "appcenter-analytics": "^5.0.0",
     "appcenter-crashes": "^5.0.0",
+    "mixpanel-react-native": "^2.3.1",
     "react": "18.2.0",
     "react-native": "0.71.13",
     "react-native-code-push": "^8.1.0",
