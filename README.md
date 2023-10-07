@@ -33,8 +33,8 @@ Here's the status of each feature:
   - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/7)
 
 ### Redux Setup 🚀
-[Up Next 🔜]: Developing a well-structured Redux setup for state management. Stay organized and efficient!
-  <!--- [Pull Request](link-to-pull-request) Enable the pull request link when it's ready -->
+[DONE ✅]: Developing a well-structured Redux setup for state management. Stay organized and efficient!
+  - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/9)
 
 ### React Query Setup 🚀
 [Up Next 🔜]: Setting up React Query for API data fetching and caching with hooks. Make your app data-driven!
