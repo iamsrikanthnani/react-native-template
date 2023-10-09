@@ -34,6 +34,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.36.1",
     "appcenter": "^5.0.0",
     "appcenter-analytics": "^5.0.0",
     "appcenter-crashes": "^5.0.0",
