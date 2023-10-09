@@ -37,8 +37,10 @@ Here's the status of each feature:
   - [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/9)
 
 ### React Query Setup 🚀
-[Up Next 🔜]: Setting up React Query for API data fetching and caching with hooks. Make your app data-driven!
-  <!--- [Pull Request](link-to-pull-request) Enable the pull request link when it's ready -->
+[Done ✅]: Setting up React Query for API data fetching and caching with hooks. Make your app data-driven!
+- [Pull Request](https://github.com/iamsrikanthnani/react-native-template/pull/10), GitHub Repositories API, with pagination with hook check screen recording 👇
+
+[![Watch the Video](https://i.vimeocdn.com/video/1735427032-a5d21123c6d6a0c3c4524088a93626cee805eb67b9cc4c0810c11d03fe51d45b-d?mw=200&mh=451)](https://vimeo.com/872399317)
 
 ### Versioning Setup 📦
 [Up Next 🔜]: Integration of versioning and release management using Semantic Versioning (SemVer) and automation. Keep your app up-to-date!
