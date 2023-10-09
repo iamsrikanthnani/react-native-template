@@ -4,7 +4,8 @@
     "baseUrl": "./",
     "paths": {
       "@hooks/*": ["src/hooks/*"],
-      "@redux/*": ["src/redux/*"]
+      "@redux/*": ["src/redux/*"],
+      "@queries/*": ["src/queries/*"]
     }
   }
 }
